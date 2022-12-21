@@ -48,7 +48,9 @@ Evaluation:
          LSTM: 0.10060721 
          LSTM with Attention: 0.12846793
          Transformers: 0.17798639
-         
+    
+    Evaluations scores could be low because models are currently underfitting due to resources constraint on google colab.
+    
 Next Steps:
     
     1. Add code and results of transformers (ETA: Dec 25th, 2022)
