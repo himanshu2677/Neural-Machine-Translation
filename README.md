@@ -39,12 +39,12 @@ Models:
 
 Evaluation:
 
-    1. Bleu-1 scores:
+    1. Bleu-3 scores:
          LSTM: 0.26479325
          LSTM with Attention: 0.29873173
          Transformers: 0.35391584
 
-    2. Bleu-2 scores:
+    2. Bleu-4 scores:
          LSTM: 0.10060721 
          LSTM with Attention: 0.12846793
          Transformers: 0.17798639
