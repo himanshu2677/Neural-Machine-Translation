@@ -33,7 +33,8 @@ Models:
         Hidden Units = 1024
         MAX LENGTH = 32
 
-    LSTM with Attention is faster to train (reaches low loss finction early) and gets better results than just LSTM.
+    LSTM with Attention is faster to train (reaches lower loss early) and gets better results than just LSTM.
+
 
 
 Evaluation:
@@ -41,10 +42,17 @@ Evaluation:
     1. Bleu-1 scores:
          LSTM: 0.26479325
          LSTM with Attention: 0.29873173
+         Transformers: 0.35391584
 
     2. Bleu-2 scores:
          LSTM: 0.10060721 
          LSTM with Attention: 0.12846793
-
+         Transformers: 0.17798639
+    
+    Evaluations scores could be low because models are currently underfitting due to resources constraint on google colab.
+    
+Next Steps:
+    
+    1. Add code and results of transformers (ETA: Jan 10th, 2023)
   
 
