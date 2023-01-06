@@ -10,6 +10,7 @@ Preprocessing:
     3. Replacing numbers with 'num'
     4. Removing english characters in hindi sentence
     5. Filtered to keep only examples with length of English text as well as Hindi text less than 32 (MAX_LENGTH = 32)
+        (88% of english-hindi pair had lengths of text less than 32. Shorter length helps in training.)
 
 
 Textvectorizer and Text embeddings:
@@ -51,8 +52,4 @@ Evaluation:
     
     Evaluations scores could be low because models are currently underfitting due to resources constraint on google colab.
     
-Next Steps:
-    
-    1. Add code and results of transformers (ETA: Jan 10th, 2023)
-  
 
